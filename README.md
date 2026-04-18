@@ -14,7 +14,7 @@ An AI-powered assistant that answers engineering questions using RAG.
 - Streamlit UI
 - Tool support
 
-- ## Architecture
+## Architecture
 
 User Query → Embedding → ChromaDB → Retrieval → LLM → Response
 
