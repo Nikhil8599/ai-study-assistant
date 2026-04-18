@@ -18,6 +18,14 @@ An AI-powered assistant that answers engineering questions using RAG.
 
 User Query → Embedding → ChromaDB → Retrieval → LLM → Response
 
+## Tech Stack
+
+- Python
+- LangGraph
+- ChromaDB
+- Sentence Transformers
+- Groq LLM
+- Streamlit
 
 
 ## Run
