@@ -11,4 +11,5 @@ An AI-powered assistant that answers engineering questions using RAG.
 
 ## Run
 pip install -r requirements.txt
+
 streamlit run capstone_streamlit.py
