@@ -1,8 +1,13 @@
 # AI Study Assistant
 
-<img width="1919" height="905" alt="Screenshot 2026-04-18 102740" src="https://github.com/user-attachments/assets/12ef5b8e-dda7-4010-b380-28b9fbd262ee" />
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/f93d9d7d-c943-4e9c-8882-122acd40056a" />
+
 
 An AI-powered assistant that answers engineering questions using RAG.
+
+## Live Demo
+
+[https://your-app-name.streamlit.app](https://ai-study-assistant-ir4bpufc2nsylyrshsmxve.streamlit.app/#ai-study-assistant)
 
 ## Features
 
@@ -27,10 +32,24 @@ User Query → Embedding → ChromaDB → Retrieval → LLM → Response
 - Groq LLM
 - Streamlit
 
+## Deployment
 
-## Run
+The application is deployed using **Streamlit Cloud**.
 
-pip install -r requirements.txt
+- Platform: Streamlit Cloud  
+- Secrets Management: Streamlit Secrets  
+- Environment: Python  
 
-streamlit run capstone_streamlit.py
+To run locally:
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Add API key in .env:
+   GROQ_API_KEY=your_key
+
+3. Run:
+   streamlit run capstone_streamlit.py
+
+
 
