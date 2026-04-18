@@ -7,7 +7,7 @@ An AI-powered assistant that answers engineering questions using RAG.
 
 ## Live Demo
 
-[https://your-app-name.streamlit.app](https://ai-study-assistant-ir4bpufc2nsylyrshsmxve.streamlit.app/#ai-study-assistant)
+https://ai-study-assistant-ir4bpufc2nsylyrshsmxve.streamlit.app/#ai-study-assistant
 
 ## Features
 
